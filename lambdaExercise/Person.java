@@ -4,7 +4,6 @@ import java.time.LocalDate;
 import java.time.chrono.IsoChronology;
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * Person class 
  * 
@@ -53,6 +52,13 @@ public class Person {
 	public static int compareByAge(Person a, Person b) {
         return a.birthday.compareTo(b.birthday);
     }
+	public String toString(){
+		return "Name: " + this.getName()
+				  + " genda: " + this.getGenda()
+				  +" DOB: " + this.getDOB()
+				  +" age: " + this.getAge()
+				  +" e-mail: " + this.getEmailAddress();
+	}
 	
 	public static List<Person> createListOfPeople() {
 		List<Person> personList = new ArrayList<Person>();
@@ -62,6 +68,10 @@ public class Person {
 		personList.add(new Person("Bob",IsoChronology.INSTANCE.date(2000, 9, 12),Person.Sex.MALE, "bob@example.com"));
 		personList.add(new Person("Magda", IsoChronology.INSTANCE.date(1979, 10, 21), Person.Sex.FEMALE, "magda@example.com"));
 		personList.add(new Person("David", IsoChronology.INSTANCE.date(1977, 01,02), Person.Sex.MALE, "david@example.co.uk"));
+		personList.add(new Person("David", IsoChronology.INSTANCE.date(1975, 03,22), Person.Sex.MALE, "david_01@example.co.uk"));
+		personList.add(new Person("Magda", IsoChronology.INSTANCE.date(2002, 12,24), Person.Sex.FEMALE, "magda_01@example.co.uk"));
+		personList.add(new Person("Magda", IsoChronology.INSTANCE.date(1969, 10,30), Person.Sex.FEMALE, "01magda@example.co.uk"));
+		
     return personList;
 }
 }
