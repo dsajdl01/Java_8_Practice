@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+
+<company>
+	<staff id="1001">
+		<firstname>Fred</firstname>
+		<lastname>Smith</lastname>
+		<sex>MALE</sex>
+		<salary>25000</salary>
+		<email>fred@example.com</email>
+		<DOB>1982,6,20</DOB>
+	</staff>
+	<staff id="1002">
+		<firstname>Jane</firstname>
+		<lastname>Woolmark</lastname>
+		<sex>FEMALE</sex>
+		<salary>23000</salary>
+		<email>janewood@example.com</email>
+		<DOB>1990,7,15</DOB>
+	</staff>
+	<staff id="1003">
+		<firstname>George</firstname>
+		<lastname>Will</lastname>
+		<sex>FEMALE</sex>
+		<salary>28000</salary>
+		<email>george@example.com</email>
+		<DOB>1984,10,25</DOB>
+	</staff>
+	<staff id="1004">
+		<firstname>Bob</firstname>
+		<lastname>Marley</lastname>
+		<sex>MALE</sex>
+		<salary>22000</salary>
+		<email>bob@example.com</email>
+		<DOB>1974,02,05</DOB>
+	</staff>
+	
+	<staff id="1005">
+		<firstname>Magda</firstname>
+		<lastname>Best</lastname>
+		<sex>FEMALE</sex>
+		<salary>28000</salary>
+		<email>magda_bt@example.com</email>
+		<DOB>1979,10,21</DOB>
+	</staff>
+	<staff id="1006">
+		<firstname>David</firstname>
+		<lastname>Small</lastname>
+		<sex>MALE</sex>
+		<salary>26000</salary>
+		<email>david@example.com</email>
+		<DOB>1977,01,02</DOB>
+	</staff>
+	<staff id="1007">
+		<firstname>Jolita</firstname>
+		<lastname>Jolly</lastname>
+		<sex>FEMALE</sex>
+		<salary>20500</salary>
+		<email>bob@example.com</email>
+		<DOB>1981,11,25</DOB>
+	</staff>
+	<staff id="1008">
+		<firstname>Magda</firstname>
+		<lastname>Ramsay</lastname>
+		<sex>FEMALE</sex>
+		<salary>19500</salary>
+		<email>magda@example.com</email>
+		<DOB>1979,10,21</DOB>
+	</staff>
+	<staff id="1009">
+		<firstname>David</firstname>
+		<lastname>Best</lastname>
+		<sex>MALE</sex>
+		<salary>28000</salary>
+		<email>david_bt@example.com</email>
+		<DOB>1976,10,10</DOB>
+	</staff>
+	<staff id="1010">
+		<firstname>Monttserat</firstname>
+		<lastname>Daiz</lastname>
+		<sex>FEMALE</sex>
+		<salary>25000</salary>
+		<email>monse@example.com</email>
+		<DOB>1974,9,29</DOB>
+	</staff>
+
+	<staff id="1011">
+		<firstname>Alex</firstname>
+		<salary>20500</salary>
+		<email>alex@example.com</email>
+		<DOB>1989,11,29</DOB>
+	</staff>
+	<staff id="1012">
+		<firstname>Dana</firstname>
+		<sex>FEMALE</sex>
+		<salary>29000</salary>
+		<email>dana@example.com</email>
+		<DOB>1980,7,22</DOB>
+	</staff>
+</company>
