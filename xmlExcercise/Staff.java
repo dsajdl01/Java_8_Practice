@@ -2,7 +2,12 @@ package xmlExcercise;
 
 import java.time.LocalDate;
 import java.time.chrono.IsoChronology;
-
+/**
+ * Staff class
+ * 
+ * @author David Sajdl
+ * @version 25/10/2015
+ */
 public class Staff {
 	
 	private String firstName;
